@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.liste1 li{
+display: inline;
+margin: 70px;
+font-size: medium 70;
+}
+nav{
+    background-color: hsl(204, 73%, 67%);
+    text-align: left;
+
+
+}
