@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Porte Folio</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
-        body{background-color: rgba(204, 50, 117, 0.152);
-        }
-    </style>
 
 
 </head>
@@ -23,90 +19,94 @@
                 <li><a href="#Travail">Travail</a></li>
                 <li><a href="#CV">CV</a></li>
                 <li><a href="#Contact">Contact</a></li>
-
             </ul>
         </nav>
     </header>
-    <img width="200" src="pexels-lukas-296282.jpg"> 
-    <br>
-    <br>
-    <form>
-        Search<input type="text"name="Search"
-     </form>
+  
     <main>
-       
+        <img id="myImage" src="pexels-lukas-296282.jpg" alt="MonImage">
+        <br>
+        <br>
+        <form>
+            <input type="text" name="Search" id="MySearch" placeholder="Search" >
+        </form>
+
+        <br>
+        <hr>
         <section id="Apropos">
-            
             <h2>À propos</h2>
-            <pre>
-                Bienvenue sur mon site ! Je suis passionné(e) par
-                <ins>l'informatique</ins> et j'aime partager mes connaissances avec
-                les autres. Sur ce site, vous trouverez des articles, des tutoriels et
-                des conseils sur divers sujets liés à l'informatique. N'hésitez pas à
-                explorer et à me contacter si vous avez des questions.
+            <p>Bienvenue sur mon site ! Je suis passionné(e) par<ins>l'informatique</ins> et j'aime partager mes
+                connaissances avec les autres. <br>
+                Sur ce site, vous trouverez des articles, des tutoriels et des conseils
+                sur divers sujets liés à l'informatique. 
+                 N'hésitez pas <br> à explorer et à me contacter si vous avez
+                des
+                questions.
             </p>
         </section>
         <section id="Travail">
             <h2>Travail</h2>
-            <pre>
+            <p>
                 Voici un aperçu de mes projets récents et de mon expérience
-                professionnelle. J'ai travaillé sur des projets variés, allant du
-                développement web à l'intelligence artificielle. Mon objectif est de
-                créer des solutions innovantes et de haute qualité qui répondent aux
-                besoins des utilisateurs.
-            </pre>
+                professionnelle.<br>
+                j'ai travaillé sur des projets variés, allant du développement web 
+                à l'intelligence artificielle.<br>
+                Mon objectif est de créer des solutions innovantes et de haute qualité 
+                qui répondent aux besoins des utilisateurs.
+            </p>
         </section>
         <section id="CV">
             <h2>CV</h2>
-            <pre>
-                Voici mon CV qui résume mon parcours académique et professionnel. J'ai
-                obtenu mon diplôme en informatique à l'université XYZ et j'ai
+            <p>
+                Voici mon CV qui résume mon parcours académique et professionnel.<br>
+                J'ai obtenu mon diplôme en informatique à l'université XYZ et j'ai
                 travaillé chez ABC Company en tant que développeur logiciel pendant
-                deux ans. Mes compétences principales incluent la programmation, la
+                deux ans.<br>
+                Mes compétences principales incluent la programmation, la
                 gestion de projets et la résolution de problèmes.
-            </pre>
+            </p>
         </section>
         <section id="Contact">
             <h2>Contact</h2>
-            <pre>
+            <p>
                 N'hésitez pas à me contacter si vous avez des questions, des
                 commentaires ou si vous souhaitez discuter d'une collaboration. Vous
                 pouvez me joindre en utilisant le formulaire ci-dessous ou en
                 m'envoyant un e-mail à [votre adresse e-mail]. Je vous répondrai dans
                 les plus brefs délais.
-            </pre>
-                <br>
-                <br>
-                
+            </p>
+            <br>
+            <br>
             <form>
-                <pre>
+                <h2>Formulaire de contact</h2>
+                <hr>
                 <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required />
                 <br>
+                <input type="text" id="name" name="name" required>
                 <br>
 
                 <label for="email">E-mail :</label>
-                <input type="email" id="email" name="email" required />
                 <br>
+                <input type="email" id="email" name="email" required>
                 <br>
-
                 <label for="message">Message :</label>
+                <br>
                 <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
 
-                <input type="submit" value="Envoyer" />
-            </pre>
             </form>
         </section>
+
+        <br>
+
+        <p>
+            <audio src="./ChebKhaledaicha.mp3" controls>musique</audio>
+        </p>
     </main>
-    <br>
-
-    <pre>
-                <audio src="./Cheb Khaled - aicha.mp3" controls>musique</audio>
-    </pre>
-    
-    <footer align="center">2023</footer>
 
 
+    <footer>2023</footer>
 </body>
 
 

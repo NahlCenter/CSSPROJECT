@@ -1,17 +1,58 @@
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
-body{
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url('./pngtree.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  padding: 1%;
+}
+.liste1{
+   text-align: center;
+}
+.liste1 li {
+  display: inline;
+margin: 5%;
+  font-size: 20px;
+}
+nav {
+  /* background-color: hsl(204, 73%, 67%); */
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 2%;
+}
+#myImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+form {
+  display: block;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+
+    color: aliceblue;
+}
+
+section { 
+    border: 2px solid black;
+}
+#MySearch {
+float: right;
 
 }
 
-.liste1 li{
-display: inline;
-margin: 70px;
-font-size: medium 70;
-}
-nav{
-    background-color: hsl(204, 73%, 67%);
-    text-align: left;
-
-
-}
